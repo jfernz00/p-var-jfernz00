@@ -1,0 +1,73 @@
+Practica P-VAR
+
+Alumno:Javier Fernandez Zamora
+
+Horas dedicadas: 5
+
+
+
+//COMPILAMOS TecladoyPruebaPractica:
+
+javac -d ./classes/ src/es/unileon/prg/tema5/Teclado.java 
+
+javac -d ./classes/ -cp classes/ src/es/unileon/prg/tema5/PruebaPractica.java
+
+//EJECUTAMOS
+
+java -cp classes/ es.unileon.prg.tema5.PruebaPractica 
+
+(x2)Recompilo con estos comandos tras usar ant, no he sido capaz de encontrar que falla para que no compile prueba ni teclado
+
+
+Respuestas a la preguntas:
+
+El resultado de apartado 4 y 5 se debe a los valores de asignacion que toman las variables 
+1.299... al guardarlo en la variable doble Resultado
+
+1.3 al restar a bigdecimal1, bigceimal2
+
+Ejercicio4 parte2____
+	[java] Introduzca el apartado: 
+030104
+     	[java] Introduzca el ejercicio: 
+02
+     [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Conversiones de tipo
+     [java] Ejercicio: 02
+     [java] 
+     [java] Descripcion: 
+     [java] 
+     [java] 
+     [java] varByte=-72
+     [java] varShort=-30536
+     [java] varInt=35000
+
+Muestra numeros negativos.
+
+Ejercicio4 parte4___
+[java] Introduzca el apartado: 
+030104
+     [java] Introduzca el ejercicio: 
+04
+     [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Conversiones de tipo
+     [java] Ejercicio: 04
+     [java] 
+     [java] Descripcion: 
+     [java] 
+     [java] 
+     [java] Gigante: Infinity
+     [java] Normal : 35.987656
+     [java] Minimo : 0.0
+     [java] Byte  : -126
+     [java] Short : -32766
+     [java] Int   : -2147483646
+     [java] f: 1.3E22
+
+Tiene exponente a la 22 necesaria la ___F en la sentencia float.
