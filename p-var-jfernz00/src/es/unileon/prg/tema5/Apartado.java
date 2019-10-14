@@ -1,5 +1,6 @@
 package es.unileon.prg.tema5;
 
+
 /**
  * Clase comun a las clases a completar.
  *

@@ -2,9 +2,16 @@ Practica P-VAR
 
 Alumno:Javier Fernandez Zamora
 
-Horas dedicadas: 5
+Horas dedicadas: 6
 
+Problemas surgidos al realizar la practica:
 
+Al realizar el primer ejercicio y compilar con ant, me da errores en algunos apartados
+y no puedo continuar con la parte 4 y 5 del ej1
+
+hablando con los compañeros he visto que con ant solucionan el problema pero el mio persiste he revisado el codigo y que haya podido modificar algo, he clonado de nuevo el archivo y empezado de cero y mismo problema.
+he continuado con el 2.
+Solucione (aunque tarde) los problemas de compilacion de ant
 
 //COMPILAMOS TecladoyPruebaPractica:
 
@@ -71,3 +78,69 @@ Ejercicio4 parte4___
      [java] f: 1.3E22
 
 Tiene exponente a la 22 necesaria la ___F en la sentencia float.
+
+030202____
+1- diferencia lenght() devuelve la longitud de la cadena y capacity() capacidad almacenamiento actual
+
+030202____
+1-run:
+     [java] Introduzca el apartado: 
+030203
+     [java] Introduzca el ejercicio: 
+01
+     [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Metodo <<toString()>>
+     [java] Ejercicio: 01
+     [java] 
+     [java] Descripcion: El metodo <<toString()>>
+     [java] 
+     [java] 
+     [java] 5
+     [java] 10.5
+     [java] Cadena de caracteres
+     [java] es.unileon.prg.tema5.Alumno@38c6f217
+
+Recompilamos tras modificacion de Almuno
+
+030203
+     [java] Introduzca el ejercicio: 
+01
+     [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Metodo <<toString()>>
+     [java] Ejercicio: 01
+     [java] 
+     [java] Descripcion: El metodo <<toString()>>
+     [java] 
+     [java] 
+     [java] 5
+     [java] 10.5
+     [java] Cadena de caracteres
+     [java] NIU: 1000011111 Nombre: Pepe Nota: 6.0 
+
+al quitar el comentario, el metodo toString de alumno devuelve el NIU el numbre y la nota
+
+030203____
+030203
+     [java] Introduzca el ejercicio: 
+02
+     [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Metodo <<toString()>>
+     [java] Ejercicio: 02
+     [java] 
+     [java] Descripcion: El metodo <<toString()>>
+     [java] 
+     [java] 
+     [java] NIU = 4000011111 NOMBRE = Juan
+     [java] es.unileon.prg.tema5.Profesor@1189dd52
+
+
+
